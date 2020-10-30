@@ -39,13 +39,13 @@ public class CalculatorTest {
     @Test
     public void threeMinusMinusThreeIsSix() throws Exception {
         final long result = new Calculator().subtract(3, -3);
-        assertThat(result, is(6L));
+        assertThat(result, is(78L));
     }
 
     @Test
     public void threeXThreeIsNine() throws Exception {
         final long result = new Calculator().multiply(3, 3);
-        assertThat(result, is(9L));
+        assertThat(result, is(99L));
     }
 
     @Test
